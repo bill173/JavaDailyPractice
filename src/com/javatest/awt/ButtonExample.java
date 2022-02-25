@@ -7,10 +7,10 @@ import java.awt.*;
  * Java AWT (Abstract Window Toolkit) is an API to develop Graphical User Interface (GUI) or window-based applications in Java.
  */
 // extending Frame class to our class AWTExample1
-public class AWTExample1 extends Frame {
+public class ButtonExample extends Frame {
 
     // initializing using constructor
-    AWTExample1() {
+    ButtonExample() {
         // creating a button
         Button b = new Button("Click Me!!");
         // setting button position on screen
@@ -30,7 +30,7 @@ public class AWTExample1 extends Frame {
     // main method
     public static void main(String args[]) {
 // creating instance of Frame class
-        AWTExample1 f = new AWTExample1();
+        ButtonExample f = new ButtonExample();
 
     }
 
