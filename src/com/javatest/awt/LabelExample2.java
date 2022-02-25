@@ -4,6 +4,12 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * In the following example, we are creating the objects of TextField, Label and Button classes and adding them to the Frame.
+ * Using the actionPerformed() method an event is generated over the button.
+ * When we add the website in the text field and click on the button, we get the IP address of website.
+ */
+
 //creating class which implements ActionListener interface and inherits Frame class
 public class LabelExample2 extends Frame implements ActionListener {
 
